@@ -1,5 +1,23 @@
 # ninja log v5
-15	126	7388099259588451	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
-128	232	7388099260601271	ConversorUnidades.exe	3d4dd699e3f7ea2a
-180	2833	7388961786095244	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
-2834	3961	7388961797332743	ConversorUnidades.exe	3d4dd699e3f7ea2a
+35	345	7392378228013490	CMakeFiles/ConversorDeUnidadesV2.dir/multunid.c.obj	40701485a8f85f8e
+346	663	7392378229090925	CMakeFiles/ConversorDeUnidadesV2.dir/verifstring.c.obj	c55c7b9589d77bba
+30	341	7392378228043417	CMakeFiles/ConversorDeUnidadesV2.dir/unidades.c.obj	512a6dc9f3c8838c
+7	169	7392381465941560	CMakeFiles/ConversorDeUnidadesV2.dir/main.c.obj	c54f8ee791b62c8d
+342	452	7392378229015899	CMakeFiles/ConversorDeUnidadesV2.dir/validarentrada.c.obj	2f277d64f324973d
+14	148	7392381465732119	CMakeFiles/ConversorDeUnidadesV2.dir/funcaocategoria.c.obj	42fbf71697e612dc
+452	680	7392378230197847	CMakeFiles/ConversorDeUnidadesV2.dir/convunit.c.obj	629fe424e2d65754
+349	732	7392378229469805	CMakeFiles/ConversorDeUnidadesV2.dir/dadossalvos.c.obj	e82a048763b8f242
+663	824	7392378232780948	CMakeFiles/ConversorDeUnidadesV2.dir/temperatura.c.obj	aa1033537da0a858
+29	209	7392385158920691	CMakeFiles/ConversorUnidades.dir/multunid.c.obj	c4c29154ab3d6907
+732	862	7392378233149952	CMakeFiles/ConversorDeUnidadesV2.dir/salvarconv.c.obj	26ffe2057c96969f
+210	323	7392385160127454	CMakeFiles/ConversorUnidades.dir/validarentrada.c.obj	c221c1d5f97e06f5
+25	428	7392385160925321	CMakeFiles/ConversorUnidades.dir/unidades.c.obj	cfb393da89d90328
+324	462	7392385161164680	CMakeFiles/ConversorUnidades.dir/verifstring.c.obj	9e04c9541e86f805
+13	467	7392385161244475	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
+463	542	7392385162516155	CMakeFiles/ConversorUnidades.dir/convunit.c.obj	854b6def9c3f8c1a
+468	579	7392385162845274	CMakeFiles/ConversorUnidades.dir/temperatura.c.obj	5c9af4c2b63f6e84
+428	583	7392385162865224	CMakeFiles/ConversorUnidades.dir/dadossalvos.c.obj	85a9742228297579
+579	667	7392385163792739	CMakeFiles/ConversorUnidades.dir/salvarconv.c.obj	b60369adf9a0c584
+10	482	7392385778293422	build.ninja	356d23a140b324eb
+35	147	7392385781006162	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
+148	266	7392385782173030	ConversorUnidades.exe	3d4dd699e3f7ea2a

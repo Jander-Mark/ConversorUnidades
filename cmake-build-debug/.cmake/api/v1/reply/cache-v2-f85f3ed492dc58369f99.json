@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/ConversorUnidades"
+			"value" : "C:/Program Files (x86)/ConversorDeUnidadesV2"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ConversorUnidades"
+			"value" : "ConversorDeUnidadesV2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,7 +1126,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "ConversorUnidades_BINARY_DIR",
+			"name" : "ConversorDeUnidadesV2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1138,7 +1138,7 @@
 			"value" : "C:/Users/jmrjr/CLionProjects/ConversorUnidades/cmake-build-debug"
 		},
 		{
-			"name" : "ConversorUnidades_IS_TOP_LEVEL",
+			"name" : "ConversorDeUnidadesV2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1150,7 +1150,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ConversorUnidades_SOURCE_DIR",
+			"name" : "ConversorDeUnidadesV2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
