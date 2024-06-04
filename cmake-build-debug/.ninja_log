@@ -1,5 +1,11 @@
 # ninja log v5
-15	126	7388099259588451	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
-128	232	7388099260601271	ConversorUnidades.exe	3d4dd699e3f7ea2a
-180	2833	7388961786095244	CMakeFiles/ConversorUnidades.dir/main.c.obj	d585622684c6609b
-2834	3961	7388961797332743	ConversorUnidades.exe	3d4dd699e3f7ea2a
+18	441	7391516584364426	CMakeFiles/ConversorDeUnidadesV2.dir/multunid.c.obj	e204e8f2d7e13f99
+446	574	7391516585411630	CMakeFiles/ConversorDeUnidadesV2.dir/verifstring.c.obj	c638e759e47db5f2
+10	446	7391516584354454	CMakeFiles/ConversorDeUnidadesV2.dir/unidades.c.obj	818be2e3631e43d5
+8	743	7391593850525767	CMakeFiles/ConversorDeUnidadesV2.dir/main.c.obj	92f53df4b4dd2d47
+442	548	7391516585252050	CMakeFiles/ConversorDeUnidadesV2.dir/validarentrada.c.obj	675a9b1a52445caa
+452	570	7391516585341815	CMakeFiles/ConversorDeUnidadesV2.dir/dadossalvos.c.obj	aceaaecb59958d05
+548	650	7391516586428908	CMakeFiles/ConversorDeUnidadesV2.dir/convunit.c.obj	fb12b7c45ff0436a
+570	805	7391516587545920	CMakeFiles/ConversorDeUnidadesV2.dir/temperatura.c.obj	d0831cf9eee84ddb
+17	742	7391593850545721	CMakeFiles/ConversorDeUnidadesV2.dir/salvarconv.c.obj	24d961d526b536f6
+14	100	7391596232800830	CMakeFiles/ConversorDeUnidadesV2.dir/funçãocategoria.c.obj	794870c4d5e6a577
