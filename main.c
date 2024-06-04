@@ -1,13 +1,9 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "stdbool.h"
+#include "funcaocategoria.c"
+#include "dadossalvos.c"
 
-void submenuConversor(const char *string) {
-}
-void visualizarDadosSalvos() {
-}
-void limparBufferEntrada() {
-}
 
 int main()
 {
@@ -23,7 +19,6 @@ int main()
         int escolha;
         scanf("%d", &escolha);
         system("cls");
-
 
         if (escolha == 1)
         {
@@ -44,44 +39,43 @@ int main()
             scanf("%d", &subEscolha);
             system("cls");
 
-
             switch (subEscolha)
             {
-                case 1:
-                    submenuConversor("comprimento");
-                    break;
-                case 2:
-                    submenuConversor("tempo");
-                    break;
-                case 3:
-                    submenuConversor("peso");
-                    break;
-                case 4:
-                    submenuConversor("corrente");
-                    break;
-                case 5:
-                    submenuConversor("temperatura");
-                    break;
-                case 6:
-                    submenuConversor("substancia");
-                    break;
-                case 7:
-                    submenuConversor("moeda");
-                    break;
-                case 8:
-                    submenuConversor("volume");
-                    break;
-                case 9:
-                    submenuConversor("potencial");
-                    break;
-                case 10:
-                    submenuConversor("dados");
-                    break;
-                default:
-                    printf("\033[0;31m");
-                    printf("Escolha invalida.\n");
-                    printf("\033[0m");
-                    break;
+            case 1:
+                realizarConversao("comprimento");
+                break;
+            case 2:
+                realizarConversao("tempo");
+                break;
+            case 3:
+                realizarConversao("peso");
+                break;
+            case 4:
+                realizarConversao("corrente");
+                break;
+            case 5:
+                realizarConversao("temperatura");
+                break;
+            case 6:
+                realizarConversao("substancia");
+                break;
+            case 7:
+                realizarConversao("moeda");
+                break;
+            case 8:
+                realizarConversao("volume");
+                break;
+            case 9:
+                realizarConversao("potencial");
+                break;
+            case 10:
+                realizarConversao("dados");
+                break;
+            default:
+                printf("\033[0;31m");
+                printf("Escolha invalida.\n");
+                printf("\033[0m");
+                break;
             }
         }
         else if (escolha == 2)
@@ -99,16 +93,20 @@ int main()
             printf("Escolha invalida.\n");
             printf("\033[0m");
         }
-// Loop para garantir entrada válida para continuar
-        while (true) {
+        // Loop para garantir entrada válida para continuar
+        while (true)
+        {
             printf("Deseja voltar ao menu principal? (s/n): ");
             fflush(stdin);
             scanf(" %c", &continuar);
             system("cls");
             limparBufferEntrada();
-            if (continuar == 's' || continuar == 'S' || continuar == 'n' || continuar == 'N') {
+            if (continuar == 's' || continuar == 'S' || continuar == 'n' || continuar == 'N')
+            {
                 break; // Saia do loop se a entrada for válida
-            } else {
+            }
+            else
+            {
                 printf("\033[0;31m");
                 printf("Entrada invalida. Por favor, digite 's' ou 'n'.\n");
                 printf("\033[0m");
