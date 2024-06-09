@@ -1,0 +1,2 @@
+Conversao de temperatura: 35.00 Fahrenheit -> 1.67 Celsius
+Conversao de temperatura: 50.00 Celsius -> 122.00 Fahrenheit
