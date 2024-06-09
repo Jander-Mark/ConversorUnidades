@@ -4,5 +4,8 @@ project(ConversorUnidades C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(ConversorUnidades main.c
-
-)
+        conversor.c
+        conversor.h
+        unidade.h
+        utilidades.c
+        utilidades.h)

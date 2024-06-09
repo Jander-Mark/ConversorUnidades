@@ -1,3 +1,0 @@
-Minuto: 15.000000 Minuto -> 0.250000 Hora
-tempo: Hora 1.00 Minuto -> 60.00
-tempo: Hora 12.00 Minuto -> 720.00
