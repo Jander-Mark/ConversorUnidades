@@ -11,6 +11,10 @@ void limparBufferEntrada() {
     while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
+/**
+ * Funcao para visualizacao dos dados salvos e para salvar
+ */
+
 void visualizarDadosSalvos() {
     FILE *file = fopen("dados_salvos.txt", "r");
     if (file != NULL) {

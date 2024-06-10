@@ -24,12 +24,25 @@ double obterMultiplicador(Unidade unidades[], int numUnidades, const char nomeUn
     return -1; // Retorna -1 se a unidade não for encontrada
 }
 
+/**
+ * Validacao de entrado
+ * @param valor
+ * @param categoria
+ * @return
+ */
+
 bool validarEntrada(double valor, char categoria[]) {
     if (strcmp(categoria, "temperatura") == 0) {
         return true;
     }
     return valor >= 0; // Retorna true se o valor for não negativo
 }
+
+/**
+ * Verifica o numero se positivo ou negativo
+ * @param str
+ * @return
+ */
 
 bool verificarNumero(const char *str) {
     if (*str == '-' || *str == '+') str++; // Permitir sinal negativo ou positivo
@@ -49,9 +62,25 @@ bool verificarNumero(const char *str) {
     return true;
 }
 
+/**
+ * funcao de conversao
+ * @param valor
+ * @param multiplicadorEntrada
+ * @param multiplicadorSaida
+ * @return
+ */
+
 double converter(double valor, double multiplicadorEntrada, double multiplicadorSaida) {
     return valor * multiplicadorEntrada / multiplicadorSaida;
 }
+
+/**
+ * Funcao especifica para as unidades de temperatura
+ * @param valor
+ * @param unidadeEntrada
+ * @param unidadeSaida
+ * @return
+ */
 
 double converterTemperatura(double valor, const char unidadeEntrada[], const char unidadeSaida[]) {
     if (strcmp(unidadeEntrada, "Celsius") == 0 && strcmp(unidadeSaida, "Fahrenheit") == 0) {
@@ -73,6 +102,13 @@ double converterTemperatura(double valor, const char unidadeEntrada[], const cha
         return -1;
     }
 }
+
+/**
+ * realiza a conversao da categoria selecionada
+ * @param unidades
+ * @param numUnidades
+ * @param categoria
+ */
 
 void realizarConversao(Unidade unidades[], int numUnidades, const char categoria[]) {
     char unidadeEntrada[30], unidadeSaida[30];
@@ -190,6 +226,11 @@ void realizarConversao(Unidade unidades[], int numUnidades, const char categoria
         }
     }
 }
+
+/**
+ * Submenu das categorias principais
+ * @param categoria
+ */
 
 void submenuConversor(const char categoria[]) {
     Unidade unidades[10];

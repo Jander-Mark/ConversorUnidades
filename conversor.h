@@ -2,7 +2,7 @@
 #define CONVERSOR_H
 
 /**
- * Funcao das coversoes do programa
+ * Prototipo da funcao das coversoes do programa
  */
 
 #include <stdbool.h>
