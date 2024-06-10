@@ -206,7 +206,10 @@ void realizarConversao(Unidade unidades[], int numUnidades, const char categoria
         }
     }
 
-    // Perguntar ao usuário se deseja fazer outra conversão ou voltar ao menu principal
+    /**
+     * Pergunta ao usuário se deseja fazer outra conversão ou voltar ao menu principal
+     */
+
     while (true) {
         char escolha;
         printf("Deseja fazer outra conversao na mesma categoria? (s/n): ");
